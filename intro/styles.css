@@ -1,0 +1,37 @@
+header {
+    background-color: #83b6c0;
+    text-align: center;
+    padding: 50px;
+    #miku {
+        position: absolute;
+        top: 30px; /* 根据实际需求调整位置 */
+        right: 70px; /* 根据实际需求调整位置 */
+    }
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 15px;
+    line-height: 2.0;
+    button {
+        border: 1px solid #ccc; /* 灰色边框，1px宽 */
+        border-radius: 5px; /* 圆角半径为5px */
+        background-color: #3097db; /* 蓝色背景色，可替换为你喜欢的颜色 */
+        color: white; /* 白色文本颜色 */
+        padding: 5px 10px; /* 内边距，上下10px，左右20px，可调整按钮大小和文本间距 */
+    }
+    button:hover {
+        background-color: #188680; /* 悬停时的深蓝色背景色 */
+        border-color: #26bdc0; /* 悬停时的深蓝色边框颜色 */
+    }
+    button:active {
+        transform: translateY(2px); /* 向下移动2px，模拟按下的感觉 */
+    }
+}
+
+footer {
+    background-color: #83b6c0;
+    text-align: center;
+    padding: 80px;
+}
